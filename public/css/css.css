@@ -1,0 +1,508 @@
+.container{
+    width: 100%;
+ 
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(158, 206, 215);
+   
+
+}
+
+.logone{
+  margin-left: 100px;
+    width: max-content;
+    height: 100%;
+    margin-top: 10px;
+   
+    h1{
+     
+     
+
+        width: 100%;
+        height: 100%;
+    }
+}
+.menu{
+    margin-left: 200px;
+    margin-right: 100px;
+     width: 700px;
+     height: 100%;
+    margin-top: 40px;
+   
+     .linkedit{
+       font-size: 20px;
+      margin-right: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+
+     }
+     .linkedit:hover{
+      
+        color: rgb(203, 86, 86);
+
+     }
+    
+ }
+ .Cart{
+  display: flex;
+     width: max-content;
+     height: 100%;
+    margin-top: 35px;
+   
+     .linkedit{
+       font-size: 20px;
+      margin-right: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+
+     }
+     .linkedit:hover{
+      
+        color: rgb(203, 86, 86);
+
+     }
+    
+ }
+ .banner{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+ }
+ .Product{
+    width: 100%;
+    height: 400px;
+ }
+ .footer{
+   width: 100%;
+   height: 400px;
+  
+    background-color:rgb(21, 9, 48) ;
+    h1{text-align: center;
+    margin-top: 100px;}
+    
+ }
+ .footer-item{
+   width: 100%;
+   display: flex;
+      .item1{
+         width: 30%;
+         ul{
+            padding: 30px;
+            color: rgb(255, 255, 255);
+         }
+      }
+      .item2{
+         width: 25%;
+         ul{
+            padding: 30px;
+            color: rgb(255, 255, 255);
+         }
+      }
+      .item3{
+         width: 25%;
+         ul{
+            padding: 30px;
+            color: rgb(255, 255, 255);
+         }
+      }
+      .item4{
+         width: 20%;
+      }
+
+ }
+
+ #map{
+   margin-top: 50px;
+ }
+
+ 
+ .search-container {
+   margin-top: 40px;
+   text-align: center;
+   margin-right: 200px;
+   display: flex;
+   height: 20px;
+   .search-button{
+      margin-left: 10px;
+      width: max-content;
+     background: none;
+   border: none;
+  
+   }
+   .search-box{
+      background: none;
+      border-radius: 10px;
+      border-style: double;
+      width: 200px;
+      text-align: center;
+    
+      color: brown;
+     border-color: rgb(56, 94, 94);
+   }
+}
+.product_super{
+	width: 100%;
+	height: auto;
+  
+   
+}	
+
+
+	
+
+
+
+
+
+.productnew_productpromotion{
+	width: 100%;
+	height: auto;
+	
+	margin-bottom: 200px;
+	
+}
+
+.product_grid{
+	width: 100%;
+	height: auto;
+   display: flex;
+}
+.product_grid__row1{
+	width: 18%;
+ margin-right: 10px;
+	height: auto;
+	h1{
+      
+     
+      padding-top: 10px;
+      padding-bottom: 10px;
+		width: 100%;
+		text-align: center;
+     
+		
+		color: #000000;
+		
+		
+	}
+   ul{
+      font-size: 30px;
+      
+   }
+   li{
+     margin-top: 20px;
+    font-size: 20px;
+    line-height: 50px;
+      list-style: none;
+     
+      .licon{
+        
+         line-height: 40px;
+      }
+      
+   }
+}
+.product_grid__row2{
+	width: 80%;
+ 
+	height: auto;
+	h1{
+      background-color: rgb(158, 206, 215);
+      padding-top: 10px;
+      padding-bottom: 10px;
+		width: 100%;
+		text-align: center;
+     
+		
+		color: #000000;
+		
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+.productfillter {
+   padding: 20px;
+ }
+ 
+ .filter-sort {
+   margin-left: 250px;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 20px;
+ }
+ 
+ .filter-sort label {
+   margin-right: 10px;
+ }
+ 
+ .filter-sort select {
+   padding: 5px;
+ }
+ 
+
+
+
+
+
+
+.product_supermax{
+	width: 100%;
+	height: auto;
+  
+   
+}	
+.product_gridmax{
+	width: 100%;
+	height: auto;
+   display: flex;
+}
+.product_grid__rowmax{
+	width: 100%;
+ 
+	height: auto;
+   h2{
+      background-color: rgb(158, 206, 215);
+      padding-top: 10px;
+      padding-bottom: 10px;
+		width: 100%;
+		text-align: center;
+     
+		
+		color: #000000;
+		
+		
+	}
+
+}
+
+
+.productcontent{
+	
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+	img{
+		
+		width: 350px;
+		height: 500px;
+		
+	}
+	h4{
+		margin-top: 30px;
+		text-align: center;
+		color: #8A8A8F;
+		text-decoration:none ;
+		
+		
+	}
+	h5:hover{
+		color:#000000;
+	}
+	
+	
+	h6{
+		text-align: center;
+		text-decoration:none ;
+		color: #000000;
+	}
+	
+	
+	
+}
+.productitem{
+ 
+	margin-bottom: 100px;
+	width: 28%;
+}
+
+.coppyright{
+   width: 100%;
+   height: 30px;
+    background-color: aliceblue;
+   p{
+       text-align: center;
+   color: #000000; 
+   }
+
+}
+.contact {
+   padding: 20px;
+   width: 100%;
+   height: max-content;
+
+ }
+ 
+ .contact h2 {
+   text-align: center;
+ }
+ 
+ .contact-info {
+   margin-left: 40px;
+   margin-bottom: 30px;
+   h2{
+     font-family: "Poetsen One", sans-serif;
+   }
+   p{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+ }
+ 
+ .contact-form {
+   max-width: 400px;
+   margin: 0 auto;
+   h2{
+     font-family: "Poetsen One", sans-serif;
+ 
+   }
+ }
+ 
+ .form-group {
+   margin-bottom: 20px;
+   width: 500px;
+ }
+ 
+ label {
+   font-weight: bold;
+   font-family: "Poetsen One", sans-serif;
+ 
+ }
+ 
+ input,
+ textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+ button {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   background-color: #45a049;
+ }
+ 
+ .google-map {
+   margin-top: 20px;
+   text-align: center;
+  
+   /* Add any additional styling for the Google Map container */
+ }
+ .ggmap{
+   width: 700px;
+   height: 300px;
+ }
+ .row-detail{
+  
+   display: flex;
+   margin-top: 30px;
+  
+ }
+ .row-img{
+   flex-basis: 40%;
+   padding: 20px;
+   img{
+     margin-left: 30px;
+     width: 70%;
+   }
+   
+ 
+ }
+ .row-info{
+   flex-basis: 60%;
+   padding: 20px;
+   h1{
+     font-family: "Poetsen One", sans-serif;
+ 
+   }
+   p{
+     font-size: 20px;
+     font-weight:600;
+   }
+ 
+   h3{
+     margin-top: 10px;
+     width: 400px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   h5{
+     margin-top: 10px;
+   }
+ }
+ .row-mua{
+   margin-top: 100px;
+ 
+ }
+ .mb-muangay{
+ 
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #000000;
+   color: #f2f2f2;
+   margin-right: 10px;
+   border-radius: 4px;
+   
+ }
+ .row-add{
+   margin-top: 10px;
+   display: flex;
+ }
+ 
+ .plus-min{
+   display: flex;
+ }
+ 
+ .plus{
+   border-radius: 4px;
+ 
+   margin-left: 5px;
+   margin-right: 5px;
+   text-align: center;  display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 37px;
+   font-size: 20px;
+   height: 37px;
+   background-color: #45a049;
+ }
+ .min{
+   border-radius: 4px;
+   font-size: 30px;
+ 
+   margin-top: 2px;
+   margin-left: 5px;
+   margin-right: 5px;
+   text-align: center;  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 37px;
+   height: 37px;
+   background-color: #45a049;
+ }
+ 
